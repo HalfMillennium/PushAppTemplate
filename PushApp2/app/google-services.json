@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800243706438",
+    "firebase_url": "https://push-47570.firebaseio.com",
+    "project_id": "push-47570",
+    "storage_bucket": "push-47570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800243706438:android:7b6913174be7bee3",
+        "android_client_info": {
+          "package_name": "com.garrettchestnut.pushapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800243706438-3q683873t2lscvnosu863j42lc94pt52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuFbdz006M1dAnbVePF11W9cJJ1SkAyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

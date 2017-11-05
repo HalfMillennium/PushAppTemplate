@@ -1,0 +1,103 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2b2b2b"
+    tools:context="com.garrettchestnut.pushapp.HasTeamActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="363dp"
+        android:layout_height="611dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:weightSum="6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/dept_obj1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="test\nbreak"/>
+
+            <TextView
+                android:id="@+id/dept_obj2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/dept_obj3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/dept_obj4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/dept_obj5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/dept_obj6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_dept_bubble"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

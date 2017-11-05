@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PushApp</string>
+    <string name="title_activity_no_team">NoTeam</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="team_tab_title">Team Objectives</string>
+    <string name="dept_tab_title">Department Objectives</string>
+    <string name="title_activity_has_team">HasTeamActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="chat_text">C H A T</string>
+</resources>
